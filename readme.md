@@ -19,7 +19,7 @@ The following are the support operations of the language:
  - `/`	Integer division: Pop a and b, then push b/a, rounded towards 0.
  - `%`	Modulo: Pop a and b, then push the remainder of the integer division of b/a.
  - `!`	Logical NOT: Pop a value. If the value is zero, push 1; otherwise, push zero.
- - `\`` Greater than: Pop a and b, then push 1 if b>a, otherwise zero.
+ - `\``  Greater than: Pop a and b, then push 1 if b>a, otherwise zero.
  - `>`	Start moving right
  - `<`	Start moving left
  - `^`	Start moving up
