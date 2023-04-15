@@ -103,7 +103,7 @@ func MakeTokenFromRune(c rune) Token {
 		if isDigit(c) {
 			return makeNumber(c)
 		}
-		return makeToken(TokenWhitespace)
+		return makeASCII(c)
 	}
 }
 
